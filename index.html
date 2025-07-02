@@ -11,22 +11,23 @@
 <div class ="main-container">
   <!-- Hamburger Menu -->
 <div class="menu-container">
-  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
-  <div class="dropdown-menu" id="dropdownMenu">
-    <a href="#about" class="nav-btn-vertical">ABOUT</a>
-    <a href="#skills" class="nav-btn-vertical">SKILLS</a>
-    <a href="#projects" class="nav-btn-vertical">PROJECTS</a>
-    <a href="#contact" class="nav-btn-vertical">CONTACT</a>
+  <div class="hamburger">&#9776;</div>
+  <div id="dropdownMenu" class="dropdown-menu">
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
   </div>
 </div>
   <section class="hero">
-    <h1>Hello, I'm</h1>
-    <h2>Aparup Banerjee</h2>
+    <h1 id="hero-h1">Hello, I'm</h1>
+    <h2 id="hero-h2">Aparup Banerjee</h2>
+    <p id="hero-p1"><b>a budding Web Developer</b></p>
     <img src="cv profile pic.jpg" alt="Aparup Banerjee">
-    <p>Welcome to my portfolio website</p>
+    <p id="hero-p2">Welcome to my portfolio website</p>
 
     <div class="hero-buttons">
-      <a href="APARUP_BANERJEE-FRESHER4.pdf" target="_blank"  download>Download Resume</a>
+      <a href="Aparup-Banerjee-Fresher--CV.pdf" target="_blank"  download>Download Resume</a>
       <a href="mailto: arbanerjee777@gmail.com">Contact Info</a>
     </div>
 
@@ -36,7 +37,7 @@
     </div>
   </section>
   <section class="about" id="about">
-    <h2>ABOUT ME</h2>
+    <h2 id="about-h2"><i>ABOUT ME</h2>
   
     <!-- Profile Image -->
     <div class="about-image">
@@ -49,88 +50,136 @@
       <!-- Qualification Box -->
       <div class="card">
         <i class="fas fa-medal"></i>
-        <h3>Qualification</h3>
-        <p>Fresher</p>
+        <h3><i>Experience</h3>
+       <ul class="experience-list">
+        <li>
+          <strong>  Web Developer Intern</strong><br>
+          @ Vault Of Codes<br>(June–July 2025)
+        </li>
+        <li>
+          <strong> Salesforce Developer Intern</strong><br>
+          @ Smartbridge and Smartinternz<br>(July–August 2024)
+        </li>
+       </ul>
       </div>
   
       <!-- Education Box -->
       <div class="card">
         <i class="fas fa-book"></i>
-        <h3>Education</h3>
-        <p>B.Tech – 7.87 CGPA</p>
-        <p>2021–2025</p>
-        <p>Electronics and Communication Engineering</p>
+        <h3><i>Education</h3>
+        <ul class="education-list">
+        <li>
+          <strong>Higher Secondary Examinations</strong><br>
+          2019–2021 (CBSE)<br>
+          Percentage: 92%
+        </li>
+        <li>
+          <strong>Bachelor of Technology</strong><br>
+          Academy of Technology (MAKAUT)<br>
+          Electronics and Communication Engineering<br>
+          2021–2025 (CGPA: 7.9)
+        </li>
+        </ul>
       </div>
       <div class="card">
-        <p>
-          I'm a passionate electronics engineer with technical skills like JAVA, MySQL, HTML, CSS, and JavaScript. With an alignment of my skills, I'm looking for fresh technical opportunities where I can apply my skills and provide a fruitful solution.
+        <h4>Profile Summary</h4>
+        <p class="profile-text">
+          A dedicated Electronics Engineer equipped with strong technical skills in Java, MySQL, HTML, CSS, and JavaScript. Actively seeking entry-level technical opportunities to apply these competencies in delivering effective, solution-oriented outcomes within dynamic and growth-driven environments.
         </p>
       </div>
     </div>
   </section>
   <section class="skills" id="skills">
-    <h2>MY SKILLS</h2>
+    <h2 id="skills-h2">MY SKILLS</h2>
     <div class="skills-container">
   
       <!-- Technical Skills Box -->
       <div class="skill-box">
-        <h3><b>TECHNICAL SKILLS</b></h3>
+        <h3><b><i>Tech Skills</i></b></h3>
         <ul>
-          <li><i class="fas fa-lightbulb"></i> JAVA</li>
-          <li><i class="fas fa-lightbulb"></i>      MySQL</li>
-          <li><i class="fas fa-lightbulb"></i> HTML</li>
-          <li><i class="fas fa-lightbulb"></i>CSS </li>
-          <li><i class="fas fa-lightbulb"></i>      JavaScript</li>
+          <li><img src="java.webp" alt="Java Icon" class="skill-icon">JAVA</li>
+          <li><img src="mysql.png" alt="MySQL Icon" class="skill-icon">MySQL</li>
+          <li><img src="HTML5.JPG" alt="HTML Icon" class="skill-icon">HTML</li>
+          <li><img src="CSS 3.png" alt="CSS Icon" class="skill-icon">CSS</li>
+          <li><img src="JavaScript.png" alt="JavaScript Icon" class="skill-icon">JavaScript</li>
+          <li><img src="microsoft.png" alt="Microsoft-Office Icon" class="skill-icon">Microsoft-Office</li>
         </ul>
+
+      </div>
+
+      <div class="skill-box">
+        <h3><b><i>Tech Tools</i></b></h3>
+        <ul>
+          <li><img src="chatgpt.jpg" alt="chatgpt Icon" class="skill-icon">ChatGPT</li>
+          <li><img src="vscode.png" alt="vscode Icon" class="skill-icon">VSCode</li>
+          <li><img src="devc.png" alt="devc Icon" class="skill-icon">DevC++</li>
+          <li><img src="powerbi.jpeg" alt="CSS Icon" class="skill-icon">Power BI</li>
+        </ul>
+
       </div>
   
       <!-- Soft Skills Box -->
       <div class="skill-box">
-        <h3><b>SOFT SKILLS</b></h3>
+        <h3><b><i>Soft Skills</i></b></h3>
         <ul>
-          <li><i class="fas fa-lightbulb"></i> Analytical Thinking</li>
-          <li><i class="fas fa-lightbulb"></i> Innovation</li>
-          <li><i class="fas fa-lightbulb"></i> Leadership</li>
-          <li><i class="fas fa-lightbulb"></i> Decision Making</li>
+          <li>Analytical Thinking</li>
+          <li>Innovation</li>
+          <li>Leadership</li>
+          <li>Decision Making</li>
         </ul>
       </div>
   
     </div>
   </section>
   <section class="projects" id="projects">
-    <h2>
-      <span class="subheading">My Recent</span><br>
-      <span class="mainheading">Projects</span>
+    <h2 id="projects-h2">
+      <span class="subheading">MY</span><br>
+      <span class="mainheading">PROJECTS</span>
     </h2>    
     <!-- Project 1 -->
     <div class="project-card">
       <i class="fas fa-microchip project-icon"></i>
       <h3>IOT Based Air Quality Monitoring</h3>
-      <a href="https://github.com/your-iot-project" class="github-button" target="_blank">View on GitHub</a>
+      <a href="https://drive.google.com/file/d/19-Kxl4qBfRZc7SAz_YSK9pF0enjgxgZL/view?usp=drive_link" class="github-button" target="_blank">Project Overview</a>
     </div>
   
     <!-- Project 2 -->
     <div class="project-card">
       <div class="mm-logo">
-        <i class="fas fa-network-wired"></i>
-        <span>MM</span>
+         <img src="LOGO.png" alt="Travista Icon" class="skill-icon">
       </div>
-      <h3>MealMatch</h3>
-      <a href="https://github.com/arbanerjee17/MealMatch" class="github-button" target="_blank">View on GitHub</a>
+      <h3>Travista</h3>
+      <a href="https://github.com/arbanerjee17/Travista" class="github-button" target="_blank">View on GitHub</a>
     </div>
 
     <div class="project-card">
       <div class="mm-logo">
         <i class="fas fa-network-wired"></i>
-        <span>BT</span>
+        <span>T-F</span>
       </div>
-      <h3>BENGAL TRAVISTA</h3>
-      <a href="https://travista-delta.vercel.app/" class="github-button" target="_blank">View on the Web</a>
+      <h3>Taski-Fy</h3>
+      <a href="https://github.com/arbanerjee17/Taski-Fy" class="github-button" target="_blank">View on the Web</a>
+    </div>
+
+    <div class="project-card">
+      <div class="mm-logo">
+         <img src="ResumeBuilder-Logo.jpg" alt="Travista Icon" class="skill-icon">
+      </div>
+      <h3>Resume-Builder</h3>
+      <a href="https://github.com/arbanerjee17/Resume-Builder" class="github-button" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <div class="mm-logo">
+         <img src="event.avif" alt="Travista Icon" class="skill-icon" >
+      </div>
+      <h3>Event-Management-System</h3>
+      <a href="https://github.com/arbanerjee17/Event-Management-System" class="github-button" target="_blank">View on GitHub</a>
     </div>
   </section>
   <section class="contact" id="contact">
-    <h2>Get In Touch</h2>
-    <h3>CONTACT ME</h3>
+    <h2 id="contact-h2">Get In Touch</h2>
+    <h3 id="contact-h3">CONTACT ME</h3>
   
     <div class="contact-box">
       <div class="contact-item">
@@ -159,5 +208,6 @@
     </p>
   </section>  
 </div>
+<script src="script.js"></script>
 </body>
 </html>
