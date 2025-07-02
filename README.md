@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website built using **HTML, CSS, JavaScript**. This site showcases my skills, projects, and contact information in a clean, animated, and responsive design.
 
 ## 🚀 Live Demo
-[Click to View My Portfolio](#)  
+[Click to View My Portfolio](https://portfolio-rho-khaki-29.vercel.app/)  
 _Replace `#` with your actual GitHub Pages or hosting link_
 
 ---
@@ -51,7 +51,7 @@ I am **Aparup Banerjee**, a budding web developer passionate about building visu
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/arbanerjee17/portfolio.git 
 2. Navigate to the project directory
    cd your-repo-name
 3. Open index.html in a browser
